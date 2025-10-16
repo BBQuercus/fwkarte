@@ -2,5 +2,5 @@
 
 export const environment = {
   production: true,
-  apiUrl: 'https://api.zskarte.ch',
+  apiUrl: 'https://api.fwkarte.local', // Configure this for your fire station deployment
 };

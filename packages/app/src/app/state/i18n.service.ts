@@ -475,9 +475,9 @@ export class I18NService {
       en: 'Cancel grouping',
     },
     sessionCreatorTitle: {
-      de: 'Willkommen bei Zivilschutz-Karte!',
-      fr: 'Bienvenue à Zivilschutz-Karte!',
-      en: 'Welcome to Zivilschutz-Karte!',
+      de: 'Willkommen bei Feuerwehr-Karte!',
+      fr: 'Bienvenue à Feuerwehr-Karte!',
+      en: 'Welcome to Feuerwehr-Karte!',
     },
     sessionCreatorInstructions: {
       de: 'Bitte beachten Sie: Die Daten werden nur auf Ihrem Browser gehalten - sie werden nicht mit einem Server geteilt! Falls Sie die Karte mit anderen zusätzlich sichern oder teilen möchten, können Sie diese exportieren (und erneut importieren).<br/><br/> <strong>Wichtig</strong>: Wenn Sie Ihre Browserdaten löschen, so werden auch die gespeicherten Karten entfernt!',
@@ -1260,12 +1260,12 @@ export class I18NService {
       fr: 'Connexion',
     },
     docLogin: {
-      de: `Melden Sie sich <strong>über Ihre Zivilschutzorganisation</strong> an. Wenden Sie sich dafür an diese, falls Sie Anmeldeinformationen benötigen.<br/>
+      de: `Melden Sie sich <strong>über Ihre Feuerwehr</strong> an. Wenden Sie sich dafür an Ihren Administrator, falls Sie Anmeldeinformationen benötigen.<br/>
   Zusätzlich besteht die Möglichkeit, die Applikation in einer <strong>Gast-Sitzung</strong> zu testen. Bitte beachten Sie, dass diese jeden Abend um 00:00 Uhr <strong>zurückgesetzt wird</strong> und <strong>nicht für den Ernstfall geeignet</strong> ist.`,
-      en: `Log in <strong>via your civil protection organization</strong>. Please contact them if you need login information.<br/>
-    In addition, you can test the application in a <strong>guest session</strong>. Please note that this is <strong>reset every evening at 00:00</strong> and <strong>not suitable for the real emergency</strong>.`,
-      fr: `Connectez-vous <strong>via votre organisation de protection civile</strong>. Veuillez contacter cette dernière si vous avez besoin d'informations de connexion.<br/>
-    En outre, vous pouvez tester l'application dans une <strong>session d'invité</strong>. Veuillez noter que celle-ci est <strong>réinitialisée chaque soir à 00:00</strong> et <strong>non adaptée à l'urgence réelle</strong>.`,
+      en: `Log in <strong>via your fire station</strong>. Please contact your administrator if you need login information.<br/>
+    In addition, you can test the application in a <strong>guest session</strong>. Please note that this is <strong>reset every evening at 00:00</strong> and <strong>not suitable for real emergencies</strong>.`,
+      fr: `Connectez-vous <strong>via votre caserne de pompiers</strong>. Veuillez contacter votre administrateur si vous avez besoin d'informations de connexion.<br/>
+    En outre, vous pouvez tester l'application dans une <strong>session d'invité</strong>. Veuillez noter que celle-ci est <strong>réinitialisée chaque soir à 00:00</strong> et <strong>non adaptée aux urgences réelles</strong>.`,
     },
     docCreateOrLoadTitle: {
       de: 'Ereignis auswählen',
@@ -2528,9 +2528,9 @@ export class I18NService {
       fr: "Limite d'invités atteinte",
     },
     guestLimitReached: {
-      de: 'Die maximale Anzahl von Elementen für den Gastzugang ist erreicht. Wenn Sie Interesse an einem dauerhaften Zugang zur ZSKarte haben, wenden Sie sich bitte an info@zskarte.ch.',
-      en: "The maximum number of elements for guest access has been reached. If yo're interested in having permanent access to the ZSKarte, please contact info@zskarte.ch.",
-      fr: "Le nombre maximum d'éléments pour l'accès invité a été atteint. Si vous êtes intéressé par un accès permanent à la ZSKarte, veuillez contacter info@zskarte.ch.",
+      de: 'Die maximale Anzahl von Elementen für den Gastzugang ist erreicht. Wenn Sie Interesse an einem dauerhaften Zugang zu FWKarte haben, wenden Sie sich bitte an Ihren Feuerwehr-Administrator.',
+      en: "The maximum number of elements for guest access has been reached. If you're interested in having permanent access to FWKarte, please contact your fire station administrator.",
+      fr: "Le nombre maximum d'éléments pour l'accès invité a été atteint. Si vous êtes intéressé par un accès permanent à FWKarte, veuillez contacter l'administrateur de votre caserne de pompiers.",
     },
     guestLimitElements: {
       de: 'Elemente auf der Karte im Gastmodus',
