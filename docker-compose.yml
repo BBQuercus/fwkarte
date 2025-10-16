@@ -1,16 +1,16 @@
 services:
   postgresql-zskarte:
-    image: bitnami/postgresql:16.3.0
+    image: postgres:16
     container_name: postgresql-zskarte
     restart: unless-stopped
     volumes:
-      - ./data/postgresql:/bitnami/postgresql
+      - ./data/postgresql:/var/lib/postgresql/data
       - ./packages/server/init:/docker-entrypoint-initdb.d
     ports:
       - 55432:5432
     environment:
-      - POSTGRESQL_PASSWORD=supersecret123
-      - POSTGRESQL_DATABASE=zskarte
+      - POSTGRES_PASSWORD=supersecret123
+      - POSTGRES_DB=zskarte
     networks:
       - zskarte
 
